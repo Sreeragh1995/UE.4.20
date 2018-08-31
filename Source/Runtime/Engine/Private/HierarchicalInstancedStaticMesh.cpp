@@ -2361,7 +2361,7 @@ void UHierarchicalInstancedStaticMeshComponent::BuildTree()
 		PerInstanceSMData.Num() > 0 &&
 		// make sure we have an actual staticmesh
 		GetStaticMesh() &&
-		(GetStaticMesh()->HasValidRenderData() || GetNetMode() == NM_DedicatedServer) &&
+		GetStaticMesh()->HasValidRenderData() &&
 		// You really can't use hardware instancing on the consoles with multiple elements because they share the same index buffer. 
 		// @todo: Level error or something to let LDs know this
 		1;//GetStaticMesh()->LODModels(0).Elements.Num() == 1;
@@ -2493,7 +2493,7 @@ void UHierarchicalInstancedStaticMeshComponent::AcceptPrebuiltTree(TArray<FClust
 		NumBuiltRenderInstances > 0 &&
 		// make sure we have an actual staticmesh
 		GetStaticMesh() &&
-		(GetStaticMesh()->HasValidRenderData() || GetNetMode() == NM_DedicatedServer) &&
+		GetStaticMesh()->HasValidRenderData() &&
 		// You really can't use hardware instancing on the consoles with multiple elements because they share the same index buffer. 
 		// @todo: Level error or something to let LDs know this
 		1;//GetStaticMesh()->LODModels(0).Elements.Num() == 1;
@@ -2645,7 +2645,7 @@ void UHierarchicalInstancedStaticMeshComponent::BuildTreeAsync()
 		PerInstanceSMData.Num() > 0 &&
 		// make sure we have an actual staticmesh
 		GetStaticMesh() &&
-		(GetStaticMesh()->HasValidRenderData() || GetNetMode() == NM_DedicatedServer) &&
+		GetStaticMesh()->HasValidRenderData() &&
 		// You really can't use hardware instancing on the consoles with multiple elements because they share the same index buffer. 
 		// @todo: Level error or something to let LDs know this
 		1;//GetStaticMesh()->LODModels(0).Elements.Num() == 1;

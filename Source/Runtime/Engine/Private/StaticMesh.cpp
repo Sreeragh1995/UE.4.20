@@ -1863,6 +1863,8 @@ int32 UStaticMesh::GetNumLODs() const
 //
 bool UStaticMesh::HasValidRenderData(bool bCheckLODForVerts, int32 LODIndex) const
 {
+	if (GetWorld()->GetNetMode() == NM_DedicatedServer) return true;
+
 	if (RenderData != nullptr
 		&& RenderData->LODResources.Num() > 0
 		&& RenderData->LODResources.GetData() != nullptr)
