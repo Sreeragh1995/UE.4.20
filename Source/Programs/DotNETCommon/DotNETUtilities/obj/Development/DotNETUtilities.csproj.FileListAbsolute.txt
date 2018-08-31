@@ -1,0 +1,6 @@
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\DotNETUtilities.dll
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\DotNETUtilities.pdb
+D:\GitHub\UE.4.20\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.csprojResolveAssemblyReference.cache
+D:\GitHub\UE.4.20\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.csproj.CoreCompileInputs.cache
+D:\GitHub\UE.4.20\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.dll
+D:\GitHub\UE.4.20\Engine\Source\Programs\DotNETCommon\DotNETUtilities\obj\Development\DotNETUtilities.pdb

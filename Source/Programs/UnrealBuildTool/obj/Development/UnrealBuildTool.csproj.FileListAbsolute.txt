@@ -1,0 +1,9 @@
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\UnrealBuildTool.exe.config
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\UnrealBuildTool.xml
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\UnrealBuildTool.exe
+D:\GitHub\UE.4.20\Engine\Binaries\DotNET\UnrealBuildTool.pdb
+D:\GitHub\UE.4.20\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.csprojResolveAssemblyReference.cache
+D:\GitHub\UE.4.20\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.csproj.CoreCompileInputs.cache
+D:\GitHub\UE.4.20\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.csproj.CopyComplete
+D:\GitHub\UE.4.20\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.exe
+D:\GitHub\UE.4.20\Engine\Source\Programs\UnrealBuildTool\obj\Development\UnrealBuildTool.pdb
